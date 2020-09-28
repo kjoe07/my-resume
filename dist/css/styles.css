@@ -477,6 +477,14 @@ mark,
   max-width: 100%;
   height: auto;
 }
+.img-thumbnail2 {
+  padding: 0.1rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -1095,6 +1103,7 @@ pre code {
   .col-md-2 {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%;
+    padding: 0px,2px,0px,2px;
   }
 
   .col-md-3 {
@@ -6301,6 +6310,9 @@ button.bg-dark:focus {
 .rounded-0 {
   border-radius: 0 !important;
 }
+.rounded-5 {
+  border-radius: 78px !important;
+}
 
 .clearfix::after {
   display: block;
@@ -10435,9 +10447,10 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  width: 5rem;
+  height: 5rem;
+   padding: 20px 20px 20px 20px;
+ /*border: 0.2rem solid rgba(0, 0, 0, 0.1);*/
 }
 .team-member h4 {
   margin-top: 1.5rem;
